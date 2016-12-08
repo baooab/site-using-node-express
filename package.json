@@ -1,0 +1,24 @@
+{
+  "name": "site-using-node-express",
+  "version": "0.0.1",
+  "description": "A website using node express",
+  "main": "blog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baooab/site-using-node-express.git"
+  },
+  "keywords": [
+    "website",
+    "simple",
+    "express"
+  ],
+  "author": "zhangbao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baooab/site-using-node-express/issues"
+  },
+  "homepage": "https://github.com/baooab/site-using-node-express#readme"
+}
