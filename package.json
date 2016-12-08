@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/baooab/site-using-node-express/issues"
   },
-  "homepage": "https://github.com/baooab/site-using-node-express#readme"
+  "homepage": "https://github.com/baooab/site-using-node-express#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
 }
