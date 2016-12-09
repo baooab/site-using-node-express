@@ -1,0 +1,12 @@
+<form>
+    <input type="hidden" name="referrer">
+    姓名: <input type="text" id="fieldName" name="name"><br>
+    电邮: <input type="email" name="email"><br>
+    <input type="submit" value="提交">
+</form>
+
+<script>
+    $(document).ready(function() {
+        $('input[name="referrer"]').val(document.referrer);
+    });
+</script>
