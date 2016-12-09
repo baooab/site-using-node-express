@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var fortune = require('./lib/fortune.js');
 // 设置 handlebars 视图引擎
 var exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
@@ -13,7 +14,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/about', function(req, res) {
-    res.render('about');
+    res.render('about', { fortune: fortune.getFortune() });
 });
 
 // 定制 404 页面
